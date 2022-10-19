@@ -1,37 +1,37 @@
-import React, { Component } from "react";
-import { useState } from "react";
+import React from "react";
+// import { useState } from "react";
 import {
   Container as BContainer,
-  Row,
-  Col,
+  // Row,
+  // Col,
   Navbar,
   Nav,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Container from "../../components/Container/Container";
+// import Container from "../../components/Container/Container";
 import { SvgIcon } from "../../components/SvgIcon/SvgIcon";
 import { Button } from "../../components/Button/Button";
 import "./styles.css";
 
 const Header = () => {
-  const [visible, setVisibility] = useState(false);
+  // const [visible, setVisibility] = useState(false);
 
-  const showDrawer = () => {
-    setVisibility(!visible);
-  };
+  // const showDrawer = () => {
+  //   setVisibility(!visible);
+  // };
 
-  const onClose = () => {
-    setVisibility(!visible);
-  };
+  // const onClose = () => {
+  //   setVisibility(!visible);
+  // };
 
   const MenuItem = () => {
-    const scrollTo = (id) => {
-      const element = document.getElementById(id);
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-      setVisibility(false);
-    };
+    // const scrollTo = (id) => {
+    //   const element = document.getElementById(id);
+    //   element.scrollIntoView({
+    //     behavior: "smooth",
+    //   });
+    //   setVisibility(false);
+    // };
     return (
       <>
         <Navbar className="mx-navbar" collapseOnSelect expand="lg">
