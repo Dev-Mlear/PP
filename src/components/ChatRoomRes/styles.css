@@ -33,7 +33,7 @@ main::-webkit-scrollbar-track {
 }
 
 main::-webkit-scrollbar-thumb {
-  background: #da4459;
+  background: #2113d8;
   border-radius:20px;
 }
 
@@ -51,7 +51,7 @@ form button {
   margin: 0;
   padding: 5px;
   width: 20%;
-  background-color: #da4459;
+  background-color: #2113d8;
   border-radius:  0px 0px 25px 0px;
 }
 @media only screen and (max-width: 890px) {
@@ -98,7 +98,7 @@ button:disabled {
 
 .sign-in {
   color: #282c34;
-  background: #F9B776;
+  background: #76bef9;
   border-radius: 10px;
   max-width: 400px;
   margin: 0 auto;
@@ -110,7 +110,7 @@ button:disabled {
   border-color: none;
   border-radius: 10px;
   padding: 0.7rem;
-  background-color: #da4459;
+  background-color: #2113d8;
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
@@ -144,11 +144,11 @@ ul, li {
 
 .sent p {
   color: white;
-  background: #E65B6F;
+  background: #282cfc;
   align-self: flex-end;
 }
 .received p {
-  background: #F9B776;
+  background: #76b3f9;
   color: black;
 }
 

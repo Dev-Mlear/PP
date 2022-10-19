@@ -1,6 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
-import { Button } from "../components/Button/Button";
+// import { Button } from "../components/Button/Button";
 import EntrepriseHome from "../components/EntrepriseHome/EntrepriseHome";
 import HeaderBox from "../components/HeaderBox/HeaderBox";
 const EntrepriseDashboard = () => (
